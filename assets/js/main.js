@@ -103,7 +103,7 @@ contactForm.addEventListener('submit', sendEmail)
 
 /* comment1 */
 const comment1Form = document.getElementById('comment1-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment1-name'),
     comment1Project = document.getElementById('comment1-project'),
     comment1Message = document.getElementById('comment1-message')
 
@@ -143,7 +143,7 @@ comment1Form.addEventListener('submit', sendComment1)
 
 /* comment-2 */
 const comment2Form = document.getElementById('comment2-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment2-name'),
     comment2Project = document.getElementById('comment2-project'),
     comment2Message = document.getElementById('comment2-message')
 
@@ -183,7 +183,7 @@ comment2Form.addEventListener('submit', sendComment2)
 
 /* comment-3 */
 const comment3Form = document.getElementById('comment3-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment3-name'),
     comment3Project = document.getElementById('comment3-project'),
     comment3Message = document.getElementById('comment3-message')
 
@@ -223,7 +223,7 @@ comment3Form.addEventListener('submit', sendComment3)
 
 /* comment-4 */
 const comment4Form = document.getElementById('comment4-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment4-name'),
     comment4Project = document.getElementById('comment4-project'),
     comment4Message = document.getElementById('comment4-message')
 
@@ -263,7 +263,7 @@ comment4Form.addEventListener('submit', sendComment4)
 
 /* comment-5 */
 const comment5Form = document.getElementById('comment5-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment5-name'),
     comment5Project = document.getElementById('comment5-project'),
     comment5Message = document.getElementById('comment5-message')
 
@@ -303,7 +303,7 @@ comment5Form.addEventListener('submit', sendComment5)
 
 /* comment-6 */
 const comment6Form = document.getElementById('comment6-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment6-name'),
     comment6Project = document.getElementById('comment6-project'),
     comment6Message = document.getElementById('comment6-message')
 
@@ -343,7 +343,7 @@ comment6Form.addEventListener('submit', sendComment6)
 
 /* comment-7 */
 const comment7Form = document.getElementById('comment7-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment7-name'),
     comment7Project = document.getElementById('comment7-project'),
     comment7Message = document.getElementById('comment7-message')
 
@@ -383,7 +383,7 @@ comment7Form.addEventListener('submit', sendComment7)
 
 /* comment-8 */
 const comment8Form = document.getElementById('comment8-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment8-name'),
     comment8Project = document.getElementById('comment8-project'),
     comment8Message = document.getElementById('comment8-message')
 
@@ -423,7 +423,7 @@ comment8Form.addEventListener('submit', sendComment8)
 
 /* comment-9 */
 const comment9Form = document.getElementById('comment9-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment9-name'),
     comment9Project = document.getElementById('comment9-project'),
     comment9Message = document.getElementById('comment9-message')
 
@@ -463,7 +463,7 @@ comment9Form.addEventListener('submit', sendComment9)
 
 /* comment-10 */
 const comment10Form = document.getElementById('comment10-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment10-name'),
     comment10Project = document.getElementById('comment10-project'),
     comment10Message = document.getElementById('comment10-message')
 
@@ -503,7 +503,7 @@ comment10Form.addEventListener('submit', sendComment10)
 
 /* comment-11 */
 const comment11Form = document.getElementById('comment11-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment11-name'),
     comment11Project = document.getElementById('comment11-project'),
     comment11Message = document.getElementById('comment11-message')
 
@@ -543,7 +543,7 @@ comment11Form.addEventListener('submit', sendComment11)
 
 /* comment-12 */
 const comment12Form = document.getElementById('comment12-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment12-name'),
     comment12Project = document.getElementById('comment12-project'),
     comment12Message = document.getElementById('comment12-message')
 
@@ -583,7 +583,7 @@ comment12Form.addEventListener('submit', sendComment12)
 
 /* comment-13 */
 const comment13Form = document.getElementById('comment13-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment13-name'),
     comment13Project = document.getElementById('comment13-project'),
     comment13Message = document.getElementById('comment13-message')
 
@@ -622,7 +622,7 @@ const sendComment13 = (e) => {
 comment13Form.addEventListener('submit', sendComment13)
     /* comment-14 */
 const comment14Form = document.getElementById('comment14-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment14-name'),
     comment14Project = document.getElementById('comment14-project'),
     comment14Message = document.getElementById('comment14-message')
 
@@ -662,7 +662,7 @@ comment14Form.addEventListener('submit', sendComment14)
 
 /* comment-15 */
 const comment15Form = document.getElementById('comment15-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment15-name'),
     comment15Project = document.getElementById('comment15-project'),
     comment15Message = document.getElementById('comment15-message')
 
@@ -702,7 +702,7 @@ comment15Form.addEventListener('submit', sendComment15)
 
 /* comment-16 */
 const comment16Form = document.getElementById('comment16-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment16-name'),
     comment16Project = document.getElementById('comment16-project'),
     comment16Message = document.getElementById('comment16-message')
 
@@ -742,7 +742,7 @@ comment16Form.addEventListener('submit', sendComment16)
 
 /* comment-17 */
 const comment17Form = document.getElementById('comment17-form'),
-      commentName = document.getElementById('comment-name'),
+      commentName = document.getElementById('comment17-name'),
     comment17Project = document.getElementById('comment17-project'),
     comment17Message = document.getElementById('comment17-message')
 
