@@ -70,7 +70,7 @@ const sendEmail = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (contactProject.value === '') {
+    if (contactName.value === '' || contactProject.value === '') {
         // Add and remove color
         contactMessage.classList.remove('color-blue')
         contactMessage.classList.add('color-red')
@@ -103,6 +103,7 @@ contactForm.addEventListener('submit', sendEmail)
 
 /* comment1 */
 const comment1Form = document.getElementById('comment1-form'),
+      commentName = document.getElementById('comment-name'),
     comment1Project = document.getElementById('comment1-project'),
     comment1Message = document.getElementById('comment1-message')
 
@@ -110,7 +111,7 @@ const sendComment1 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment1Project.value === '') {
+    if (comment1Name.value === ''||comment1Project.value === '') {
         // Add and remove color
         comment1Message.classList.remove('color-blue')
         comment1Message.classList.add('color-red')
@@ -142,6 +143,7 @@ comment1Form.addEventListener('submit', sendComment1)
 
 /* comment-2 */
 const comment2Form = document.getElementById('comment2-form'),
+      commentName = document.getElementById('comment-name'),
     comment2Project = document.getElementById('comment2-project'),
     comment2Message = document.getElementById('comment2-message')
 
@@ -149,7 +151,7 @@ const sendComment2 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment2Project.value === '') {
+    if (comment2Name.value === ''||comment2Project.value === '') {
         // Add and remove color
         comment2Message.classList.remove('color-blue')
         comment2Message.classList.add('color-red')
@@ -181,6 +183,7 @@ comment2Form.addEventListener('submit', sendComment2)
 
 /* comment-3 */
 const comment3Form = document.getElementById('comment3-form'),
+      commentName = document.getElementById('comment-name'),
     comment3Project = document.getElementById('comment3-project'),
     comment3Message = document.getElementById('comment3-message')
 
@@ -188,7 +191,7 @@ const sendComment3 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment3Project.value === '') {
+    if (comment3Name.value === ''||comment3Project.value === '') {
         // Add and remove color
         comment3Message.classList.remove('color-blue')
         comment3Message.classList.add('color-red')
@@ -220,6 +223,7 @@ comment3Form.addEventListener('submit', sendComment3)
 
 /* comment-4 */
 const comment4Form = document.getElementById('comment4-form'),
+      commentName = document.getElementById('comment-name'),
     comment4Project = document.getElementById('comment4-project'),
     comment4Message = document.getElementById('comment4-message')
 
@@ -227,7 +231,7 @@ const sendComment4 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment4Project.value === '') {
+    if (comment4Name.value === ''||comment4Project.value === '') {
         // Add and remove color
         comment4Message.classList.remove('color-blue')
         comment4Message.classList.add('color-red')
@@ -259,6 +263,7 @@ comment4Form.addEventListener('submit', sendComment4)
 
 /* comment-5 */
 const comment5Form = document.getElementById('comment5-form'),
+      commentName = document.getElementById('comment-name'),
     comment5Project = document.getElementById('comment5-project'),
     comment5Message = document.getElementById('comment5-message')
 
@@ -266,7 +271,7 @@ const sendComment5 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment5Project.value === '') {
+    if (comment5Name.value === ''||comment5Project.value === '') {
         // Add and remove color
         comment5Message.classList.remove('color-blue')
         comment5Message.classList.add('color-red')
@@ -298,6 +303,7 @@ comment5Form.addEventListener('submit', sendComment5)
 
 /* comment-6 */
 const comment6Form = document.getElementById('comment6-form'),
+      commentName = document.getElementById('comment-name'),
     comment6Project = document.getElementById('comment6-project'),
     comment6Message = document.getElementById('comment6-message')
 
@@ -305,7 +311,7 @@ const sendComment6 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment6Project.value === '') {
+    if (comment6Name.value === ''||comment6Project.value === '') {
         // Add and remove color
         comment6Message.classList.remove('color-blue')
         comment6Message.classList.add('color-red')
@@ -337,6 +343,7 @@ comment6Form.addEventListener('submit', sendComment6)
 
 /* comment-7 */
 const comment7Form = document.getElementById('comment7-form'),
+      commentName = document.getElementById('comment-name'),
     comment7Project = document.getElementById('comment7-project'),
     comment7Message = document.getElementById('comment7-message')
 
@@ -344,7 +351,7 @@ const sendComment7 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment7Project.value === '') {
+    if (comment7Name.value === ''||comment7Project.value === '') {
         // Add and remove color
         comment7Message.classList.remove('color-blue')
         comment7Message.classList.add('color-red')
@@ -376,6 +383,7 @@ comment7Form.addEventListener('submit', sendComment7)
 
 /* comment-8 */
 const comment8Form = document.getElementById('comment8-form'),
+      commentName = document.getElementById('comment-name'),
     comment8Project = document.getElementById('comment8-project'),
     comment8Message = document.getElementById('comment8-message')
 
@@ -383,7 +391,7 @@ const sendComment8 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment8Project.value === '') {
+    if (comment8Name.value === ''||comment8Project.value === '') {
         // Add and remove color
         comment8Message.classList.remove('color-blue')
         comment8Message.classList.add('color-red')
@@ -415,6 +423,7 @@ comment8Form.addEventListener('submit', sendComment8)
 
 /* comment-9 */
 const comment9Form = document.getElementById('comment9-form'),
+      commentName = document.getElementById('comment-name'),
     comment9Project = document.getElementById('comment9-project'),
     comment9Message = document.getElementById('comment9-message')
 
@@ -422,7 +431,7 @@ const sendComment9 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment9Project.value === '') {
+    if (comment9Name.value === ''||comment9Project.value === '') {
         // Add and remove color
         comment9Message.classList.remove('color-blue')
         comment9Message.classList.add('color-red')
@@ -454,6 +463,7 @@ comment9Form.addEventListener('submit', sendComment9)
 
 /* comment-10 */
 const comment10Form = document.getElementById('comment10-form'),
+      commentName = document.getElementById('comment-name'),
     comment10Project = document.getElementById('comment10-project'),
     comment10Message = document.getElementById('comment10-message')
 
@@ -461,7 +471,7 @@ const sendComment10 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment10Project.value === '') {
+    if (comment10Name.value === ''||comment10Project.value === '') {
         // Add and remove color
         comment10Message.classList.remove('color-blue')
         comment10Message.classList.add('color-red')
@@ -493,6 +503,7 @@ comment10Form.addEventListener('submit', sendComment10)
 
 /* comment-11 */
 const comment11Form = document.getElementById('comment11-form'),
+      commentName = document.getElementById('comment-name'),
     comment11Project = document.getElementById('comment11-project'),
     comment11Message = document.getElementById('comment11-message')
 
@@ -500,7 +511,7 @@ const sendComment11 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment11Project.value === '') {
+    if (comment11Name.value === ''||comment11Project.value === '') {
         // Add and remove color
         comment11Message.classList.remove('color-blue')
         comment11Message.classList.add('color-red')
@@ -532,6 +543,7 @@ comment11Form.addEventListener('submit', sendComment11)
 
 /* comment-12 */
 const comment12Form = document.getElementById('comment12-form'),
+      commentName = document.getElementById('comment-name'),
     comment12Project = document.getElementById('comment12-project'),
     comment12Message = document.getElementById('comment12-message')
 
@@ -539,7 +551,7 @@ const sendComment12 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment12Project.value === '') {
+    if (comment12Name.value === ''||comment12Project.value === '') {
         // Add and remove color
         comment12Message.classList.remove('color-blue')
         comment12Message.classList.add('color-red')
@@ -571,6 +583,7 @@ comment12Form.addEventListener('submit', sendComment12)
 
 /* comment-13 */
 const comment13Form = document.getElementById('comment13-form'),
+      commentName = document.getElementById('comment-name'),
     comment13Project = document.getElementById('comment13-project'),
     comment13Message = document.getElementById('comment13-message')
 
@@ -578,7 +591,7 @@ const sendComment13 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment13Project.value === '') {
+    if (comment13Name.value === ''||comment13Project.value === '') {
         // Add and remove color
         comment13Message.classList.remove('color-blue')
         comment13Message.classList.add('color-red')
@@ -609,6 +622,7 @@ const sendComment13 = (e) => {
 comment13Form.addEventListener('submit', sendComment13)
     /* comment-14 */
 const comment14Form = document.getElementById('comment14-form'),
+      commentName = document.getElementById('comment-name'),
     comment14Project = document.getElementById('comment14-project'),
     comment14Message = document.getElementById('comment14-message')
 
@@ -616,7 +630,7 @@ const sendComment14 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment14Project.value === '') {
+    if (comment14Name.value === ''||comment14Project.value === '') {
         // Add and remove color
         comment14Message.classList.remove('color-blue')
         comment14Message.classList.add('color-red')
@@ -648,6 +662,7 @@ comment14Form.addEventListener('submit', sendComment14)
 
 /* comment-15 */
 const comment15Form = document.getElementById('comment15-form'),
+      commentName = document.getElementById('comment-name'),
     comment15Project = document.getElementById('comment15-project'),
     comment15Message = document.getElementById('comment15-message')
 
@@ -655,7 +670,7 @@ const sendComment15 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment15Project.value === '') {
+    if (comment15Name.value === ''|| comment15Project.value === '') {
         // Add and remove color
         comment15Message.classList.remove('color-blue')
         comment15Message.classList.add('color-red')
@@ -687,6 +702,7 @@ comment15Form.addEventListener('submit', sendComment15)
 
 /* comment-16 */
 const comment16Form = document.getElementById('comment16-form'),
+      commentName = document.getElementById('comment-name'),
     comment16Project = document.getElementById('comment16-project'),
     comment16Message = document.getElementById('comment16-message')
 
@@ -694,7 +710,7 @@ const sendComment16 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment16Project.value === '') {
+    if (comment16Name.value === ''||comment16Project.value === '') {
         // Add and remove color
         comment16Message.classList.remove('color-blue')
         comment16Message.classList.add('color-red')
@@ -726,6 +742,7 @@ comment16Form.addEventListener('submit', sendComment16)
 
 /* comment-17 */
 const comment17Form = document.getElementById('comment17-form'),
+      commentName = document.getElementById('comment-name'),
     comment17Project = document.getElementById('comment17-project'),
     comment17Message = document.getElementById('comment17-message')
 
@@ -733,7 +750,7 @@ const sendComment17 = (e) => {
     e.preventDefault()
 
     // Check if the field has a value
-    if (comment17Project.value === '') {
+    if (comment17Name.value === ''|| comment17Project.value === '') {
         // Add and remove color
         comment17Message.classList.remove('color-blue')
         comment17Message.classList.add('color-red')
