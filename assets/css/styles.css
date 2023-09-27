@@ -3,8 +3,8 @@
 @charset "utf-8";
 @import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;500;600&family=Roboto:wght@400;500&display=swap");
 @font-face {
-    font-family: Amalfi-Coast;
-    src: url('assets/fonts/Amalfi-Coast.ttf');
+    font-family: AmalfiCoast;
+    src: url('../fonts/AmalfiCoast.ttf');
 }
 
 
@@ -248,8 +248,8 @@ body.dark-theme {
 }
 
 .nav__logo {
-    font-family: Amalfi-Coast;
-    font-weight: var(--font-medium);
+    font-family: AmalfiCoast;
+    font-weight: 700;
 }
 
 .nav__toggle {
@@ -305,6 +305,12 @@ body.dark-theme {
     font-size: 1.5rem;
     cursor: pointer;
 }
+
+
+/*search*/
+
+
+/* Search final*/
 
 
 /* Show menu */
